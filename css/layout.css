@@ -1,0 +1,22 @@
+/* layout.css - Estrutura e Grid */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+main {
+    min-height: 80vh;
+    padding: 2rem 0;
+}
+
+footer {
+    padding: 2rem 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
