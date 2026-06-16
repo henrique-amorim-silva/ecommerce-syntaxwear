@@ -1,16 +1,16 @@
 header{
-    background-color:#ffffff;
     position: fixed;
     top: 20px;
     left: 50%;
     transform: translate(-50%);
     width: calc(100% - 40px);
-    border-radius: 15px;
+    border-radius: 10px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.255rem 1.25rem;
+    background-color:#ffffff;
 }
 
 .logo img{
@@ -26,6 +26,7 @@ header{
 .nav-center a,
 .nav-rigth a{
     font-size: 1,25rem;
+    color: #333333;
 }
 
 .nav-center a:hover,
