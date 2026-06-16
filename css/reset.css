@@ -1,0 +1,75 @@
+/* modern CSS reset — baseado no modelo de Andy Bell */
+/* https://andy-bell.co.uk/notes/a-modern-css-reset/ */
+
+:where(html, body) {
+    height: 100%
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
+* {
+    margin: 0
+}
+
+html:where(:root) {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    min-height: 100%;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit
+}
+
+abbr[title] {
+    text-decoration: underline dotted
+}
+
+:where([hidden]) {
+    display: none
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important
+    }
+}
