@@ -1,6 +1,6 @@
 .hero{
     background: url(../../images/banners/hero.jpg) no-repeat center;
-    height: 500px;
+    height: 600px;
     position: relative;
     background-size: cover;
 }
