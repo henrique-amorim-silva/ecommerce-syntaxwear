@@ -1,5 +1,6 @@
 body{
     font-family: var(--fonte-principal);
-    background-color: #000000;
+    background-color: var(--background-site);
     color: #333333;
+    padding: 15px;
 }

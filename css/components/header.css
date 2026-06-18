@@ -1,9 +1,9 @@
 header{
     position: fixed;
-    top: 20px;
+    top: 40px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(100% - 65px);
     border-radius: 10px;
     z-index: 999;
     display: flex;

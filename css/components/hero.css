@@ -1,8 +1,9 @@
-.hero{
+.hero-section{
     background: url(../../images/banners/hero.jpg) no-repeat center;
     height: 600px;
     position: relative;
     background-size: cover;
+    border-radius: 15px;
 }
 
 .hero-overlay{
@@ -15,7 +16,7 @@
 }
 .hero-content{
     color: #ffffff;
-    max-width: 380px;
+    max-width: 460px;
     text-align: center;
 }
 
@@ -28,7 +29,7 @@
 .hero-content .hero-title{
     font-size: 1.87rem;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     line-height: 36px;
     letter-spacing: 3px; 
 }
