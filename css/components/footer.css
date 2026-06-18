@@ -1,0 +1,85 @@
+.site-footer {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.footer-content {
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 2.5rem;
+    display: flex;
+    gap: 9.6875rem;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+    gap: 2.5rem;
+}
+
+.footer-links ul {
+    padding: 0;
+    line-height: 2.1875rem;
+}
+
+.footer-links h3 {
+    font-size: 1.25rem;
+    color: #ededed;
+}
+
+.footer-links li a {
+    font-size: 1.25rem;
+    color: #ffffff;
+    transition: text-decoration 0.3s;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+#footer-email {
+    border-radius: 1.875rem;
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #6329a2;
+    width: 21.5rem;
+    color: #aaaaaa;
+}
+
+.footer-socials ul {
+    display: flex;
+    gap: 1.25rem;
+    justify-content: flex-start;
+    padding: 0;
+    margin-top: 0.625rem;
+}
+
+.footer-socials li a:hover img {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    justify-content: center;
+    width: 85rem;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    padding: 1.25rem 0;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
