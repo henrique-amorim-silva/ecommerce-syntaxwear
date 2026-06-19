@@ -83,6 +83,7 @@
 
     .site-header {
         width: calc(100% - 40px);
+        top: 30px;
     }
 
     .menu-icon {
